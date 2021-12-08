@@ -1,0 +1,87 @@
+/* CSS COMMUN */
+body{
+    margin: 0px;
+    cursor: url(images/cursor.cur), pointer;
+}
+.conteneur_principale {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background-image: url('images/pixel-stars.gif');
+    background-repeat: repeat;
+}
+a, h1, p {
+    color: antiquewhite;
+}
+.entete {
+    width: 100%;
+    height: 130px;
+    background-color: rgba(5, 5, 5, 0.795);
+    border-bottom: solid antiquewhite 1px;
+
+}
+.logo_starwars {
+    display: block;
+    width: 200px;
+    margin: auto;
+}
+
+.nav-barre {
+    margin: 0;
+    padding: 0;
+    text-align:center;
+    width: 100%;
+    background-color: rgba(5, 5, 5, 0.795);
+    border-bottom: solid 1px antiquewhite ;
+
+}
+.nav-barre ul {
+    display:inline-flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(5, 5, 5, 0.795);
+    color: antiquewhite;
+    list-style: none;
+    margin: auto;
+}
+.nav-barre ul li {
+    margin: 0px;
+    padding: 0;
+    
+}
+.nav-barre ul li a:hover {
+    color : red; 
+}
+
+#en-cours {
+    color: rgb(191, 223, 50);
+}
+
+.nav-barre a {
+	color: antiquewhite;
+	display: block;
+	font: bold 12px/20px sans-serif;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+    border-left: solid 1px antiquewhite;
+    border-right:solid 1px antiquewhite;
+    
+
+}
+
+.sections {
+    display: block;
+    width: 80%;
+    height: 300px;
+    margin: 10px auto;
+    background-color: rgba(5, 5, 5, 0.795);
+    border: solid 1px antiquewhite;
+
+
+}
+
+
+
+/* FIN CSS COMMUN */
