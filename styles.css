@@ -52,6 +52,7 @@ a, h1, p {
 }
 .nav-barre ul li a:hover {
     color : red; 
+    cursor: url(images/cursor.cur), pointer;
 }
 
 #en-cours {
@@ -72,14 +73,31 @@ a, h1, p {
 }
 
 .sections {
-    display: block;
+    display: flex;
     width: 80%;
     height: 300px;
     margin: 10px auto;
     background-color: rgba(5, 5, 5, 0.795);
     border: solid 1px antiquewhite;
+    flex-direction: row;
 
 
+
+}
+
+.imagesArticles {
+    width : 300px;
+    height: auto;
+    display: block;
+    margin: 20px;
+}
+
+.paragraphesArticles {
+    width: 50%;
+    display : block;
+    margin : 20px;
+    text-align: center;
+    
 }
 
 
