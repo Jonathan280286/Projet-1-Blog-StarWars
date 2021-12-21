@@ -94,7 +94,7 @@ a, h1, p {
 }
 
 .imagesArticles {
-    width : 300px;
+    width : 500px;
     height: auto;
     display: block;
     margin: 20px;
@@ -106,6 +106,9 @@ a, h1, p {
     margin : 20px;
     text-align: center;
     
+}
+iframe {
+    margin : 0px;
 }
 
 
