@@ -2,6 +2,9 @@
 body{
     margin: 0px;
     cursor: url(images/cursor.cur), pointer;
+    background-image: url('images/BG1.jpg');
+    background-repeat: repeat;
+    height: 3000px;
 }
 .conteneur_principale {
     width: 100%;
@@ -90,16 +93,7 @@ a, h1, p {
     flex-direction: row;
 }
 
-.sections-wall {
-    display: flex;
-    width: 80%;
-    height: 600px;
-    margin: 10px auto;
-    background-color: rgba(5, 5, 5, 0.795);
-    border: solid 1px antiquewhite;
-    flex-direction: row;
 
-}
 
 
 
@@ -117,6 +111,9 @@ a, h1, p {
     display : block;
     margin : 20px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto ;
     
 }
 iframe {
@@ -130,7 +127,30 @@ iframe {
 /* FIN CSS COMMUN */
 
 /*CSS WALLPAPERS */
+.sections-wall {
+    display: flex;
+    width: 60%;
+    height: 30%;
+    margin: 10px auto;
+    background-color: rgba(5, 5, 5, 0.795);
+    border: solid 1px antiquewhite;
+    flex-direction: row;
+    overflow-x: scroll;
 
+}
+
+
+
+.images-wall {
+    width : 100%;
+    height: 60%;
+}
+
+.download1 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1.5em;
+}
 
 
 
@@ -157,6 +177,7 @@ iframe {
     margin-top: 100px;
     height: 300px;
     width: 300px;
+    border : solid 1px antiquewhite;
 }
 
 .formulaire {
@@ -165,4 +186,128 @@ iframe {
 
 label {
     color: antiquewhite;
+}
+
+#message {
+    width: 200px;
+    height: 100px;
+}
+
+
+
+/* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */
+@media all and (min-width: 601px) and (max-width: 900px) {
+    .sections {
+        display: flex;
+        width: 500px;
+        height: 400px;
+        margin: 10px auto;
+        background-color: rgba(5, 5, 5, 0.795);
+        border: solid 1px antiquewhite;
+        flex-direction: column;
+        
+    }
+
+    .imagesArticles {
+        width : 80%;
+        height: auto;
+        display: block;
+        margin-top : 10px;
+        margin-left: 40px;
+    }
+    
+    .paragraphesArticles {
+        width: 80%;
+        display : block;
+        margin : 20px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        overflow-y: auto ;
+    }
+    .fixed1 {
+        position: relative;
+        width: 100%;
+    }
+    .block-articles {
+        padding-top: 10px;
+    }
+    .nav-barre {
+        margin: 0;
+        padding: 0;
+        text-align:center;
+        width: 100%;
+        background-color: rgba(5, 5, 5, 0.795);
+        border-bottom: solid 1px antiquewhite ;
+    
+    }
+    .nav-barre ul {
+        display:flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        background-color: rgba(5, 5, 5, 0.795);
+        color: antiquewhite;
+        list-style: none;
+        margin: auto;
+    }
+
+}
+
+@media all and (min-width: 200px) and (max-width: 600px) {
+    .sections {
+        display: flex;
+        width: 300px;
+        height: 400px;
+        margin: 10px auto;
+        background-color: rgba(5, 5, 5, 0.795);
+        border: solid 1px antiquewhite;
+        flex-direction: column;
+        
+    }
+
+    .imagesArticles {
+        width : 80%;
+        height: auto;
+        display: block;
+        margin-top : 10px;
+        margin-left: 40px;
+    }
+    
+    .paragraphesArticles {
+        width: 80%;
+        display : block;
+        margin : 20px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        overflow-y: auto ;
+    }
+    .fixed1 {
+        position: relative;
+        width: 100%;
+    }
+    .block-articles {
+        padding-top: 10px;
+    }
+    .nav-barre {
+        margin: 0;
+        padding: 0;
+        text-align:center;
+        width: 100%;
+        background-color: rgba(5, 5, 5, 0.795);
+        border-bottom: solid 1px antiquewhite ;
+    
+    }
+    .nav-barre ul {
+        display:flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        background-color: rgba(5, 5, 5, 0.795);
+        color: antiquewhite;
+        list-style: none;
+        margin: auto;
+    }
+
 }
