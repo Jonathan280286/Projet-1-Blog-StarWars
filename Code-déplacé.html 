@@ -1,0 +1,40 @@
+/*CSS WALLPAPERS */
+.sections-wall {
+    display: flex;
+    width: 60%;
+    height: 30%;
+    margin: 10px auto;
+    background-color: rgba(5, 5, 5, 0.795);
+    border: solid 1px antiquewhite;
+    flex-direction: row;
+    overflow-x: scroll;
+
+}
+
+
+
+.images-wall {
+    width : 100%;
+    height: 60%;
+    
+}
+
+
+htm 
+
+
+
+<section class="sections-wall">
+              <img class="images-wall" src="images/wall1.jpg" alt="wallpaper star wars">
+              <img class="images-wall" src="images/wall2.jpg" alt="wallpaper star wars">
+              <img class="images-wall" src="images/wall3.jpg" alt="wallpaper star wars">
+              <img class="images-wall" src="images/wall4.jpg" alt="wallpaper star wars">
+              <img class="images-wall" src="images/wall5.jpg" alt="wallpaper star wars">
+              <img class="images-wall" src="images/wall6.jpg" alt="wallpaper star wars">
+              <img class="images-wall" src="images/wall7.jpg" alt="wallpaper star wars">
+              <img class="images-wall" src="images/wall8.jpg" alt="wallpaper star wars">
+              <img class="images-wall" src="images/wall9.jpg" alt="wallpaper star wars">
+              <img class="images-wall" src="images/wall10.jpg" alt="wallpaper star wars">
+              <img class="images-wall" src="images/wall5.jpg" alt="wallpaper star wars">
+              <img class="images-wall" src="images/wall6.jpg" alt="wallpaper star wars">
+            </section>
